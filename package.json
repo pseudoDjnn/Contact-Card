@@ -11,7 +11,7 @@
     "build": "cd client && npm run build",
     "install": "concurrently \"cd client && npm install\" \"cd server && npm install\" ",
     "client": "cd client && npm start",
-    "heroku-prebuild": "npm i --dev"
+    "heroku-prebuild": "npm install --dev"
   },
   "repository": {
     "type": "git",
